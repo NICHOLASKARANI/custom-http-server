@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom HTTP Server</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
+        h1 { color: #333; }
+        .success { color: green; }
+        .info { background: #f0f0f0; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>🚀 Custom HTTP Server Running!</h1>
+    <p class="success">✓ Pure C HTTP/1.1 Server</p>
+    <p class="success">✓ Epoll-based Concurrency</p>
+    <p class="success">✓ Reverse Proxy + Load Balancing Ready</p>
+    
+    <div class="info">
+        <h3>Server Info:</h3>
+        <p>Built from scratch with POSIX sockets</p>
+        <p>Static file serving enabled</p>
+        <p>Proxy routes configured in server.conf</p>
+    </div>
+    
+    <h3>Test Proxy:</h3>
+    <p><a href="/api/get">/api/get</a> - Proxies to httpbin.org</p>
+</body>
+</html>
